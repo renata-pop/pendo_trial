@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family:
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue",
+        Arial;
+    background-color: #20242e;
+    color: #1a1b1f;
+}
+
+h1 {
+    font-family: "Sora", sans-serif;
+    color: #ff4876;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.box {
+    flex: 1;
+    height: 150px;
+    background-color: #ff4876;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sora", sans-serif;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
